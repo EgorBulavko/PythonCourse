@@ -1,0 +1,26 @@
+A=float(input('Введите первое число'))
+B=float(input('Введите второе число'))
+C=str(input('Введите операцию'))
+if C=='+':
+    print(A+B)
+elif C=='-':
+    print(A-B)
+elif C=='/':
+    if B!=0:
+        print(A/B)
+    else:
+        print('Деление на 0!')
+elif C=='*':
+    print(A*B)
+elif C=='mod':
+    if B!=0:
+        print(A%B)
+    else:
+        print('Деление на 0!')
+elif C=='pow':
+    print(A**B)
+elif C=='div':
+    if B!=0:
+        print(A//B)
+    else:
+        print('Деление на 0!')
