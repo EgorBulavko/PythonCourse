@@ -1,0 +1,7 @@
+a=str(input()) 
+a=a.lower() 
+a=a.replace('a', 'T') 
+a=a.replace('t', 'A') 
+a=a.replace('g', 'C') 
+a=a.replace('c', 'G') 
+print(a[::-1])
